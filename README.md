@@ -6,6 +6,7 @@ Challenges:
 -> Directing Push notifications to difficult screens nested deep within the navigation hierarchy. 
 -> Synchronising the Beauty Calendar with the below news feed. 
 -> Leveraging Webviews to maintain seamless UX within various joureys within the app flow where a user might be signed out.
+-> The users required different accounts per locale, so we had to find a way to change the Store without requiring further Android location permissions.
 
 https://github.com/nomadiqltd/Charlotte-Tilbury-Magic-Demo/assets/14942202/8b350c7a-ce9f-4835-9ed3-09ed61b07ff9.mp4
 
