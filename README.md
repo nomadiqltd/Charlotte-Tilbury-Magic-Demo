@@ -1,14 +1,16 @@
 # Charlotte-Tilbury-Magic-Demo
 Overview: 
-Below are some snippets of my favourite bits of the Magic app. The videoplayer (using exoplayer), the custom Beauty calendar and Push notifications to specific user screens.
+Below are some snippets of my favourite bits of the Magic app on which I worked on. The videoplayer (using exoplayer), the custom Beauty calendar and integratting Emarsys to enable Push notifications to specific user screens.
 
 Challenges: 
 <br>
 -> Directing Push notifications to difficult screens nested deep within the navigation hierarchy. 
+There were also several bugs within the navigation UI library itself from Android's navigation Library.
 </br>
 
 <br>
 -> Synchronising the Beauty Calendar with the below news feed. 
+Utlising parts of an existing library to work through the incremental date and tieing it together with a Recyclerview
 </br>
 
 <br>
@@ -16,8 +18,8 @@ Challenges:
 </br>
 
 <br>
--> The users required different accounts per locale, so we had to find a way to change the Store without requiring further
-Android location permissions.
+-> The users required a different user account per locale e.g. UK, Spain, Germany were all different online stores with their own product inventory and news information,
+so we had to find a way to enable the user to shop in a different Store/Locale without requiring further intrusive Android location permissions.
 </br>
 
 https://github.com/nomadiqltd/Charlotte-Tilbury-Magic-Demo/assets/14942202/8b350c7a-ce9f-4835-9ed3-09ed61b07ff9.mp4
